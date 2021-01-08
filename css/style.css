@@ -1,0 +1,86 @@
+
+
+body{
+    background-color: #eee6!important;
+}
+.container{padding: 30px 0;}
+
+.butt {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 22px;
+    margin-right: 20px;
+    
+}
+
+.butt p {margin-bottom: 6px;}
+
+.input-group-prepend {margin-right: 7px;margin-top: 4px}
+
+.all-btn {display: flex;padding-top: 11px;}
+
+
+textarea:hover,
+input:hover,
+
+textarea:active, 
+input:active,
+ 
+textarea:focus, 
+input:focus {
+    outline:0px !important;
+}
+
+
+.control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.disabl{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #dcdcdc61;
+    background-clip: padding-box;
+    border: 1px solid #dcdcdc61;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+textarea {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: textarea;
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    font: 400 13.3333px Arial;
+
+
+    overflow: auto;
+    resize: vertical;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
